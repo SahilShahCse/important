@@ -1,0 +1,91 @@
+import 'package:flutter/material.dart';
+
+class TTextTheme {
+  static TextTheme textTheme = const TextTheme(
+    // AppBar
+    titleLarge: TextStyle(
+      fontSize: 12,
+      fontWeight: FontWeight.w500,
+    ),
+
+    // Text Widget inside Scaffold, SnackBar, ListTile(subtitle), pop-up/alert message body
+    bodyMedium: TextStyle(
+      fontSize: 12,
+      fontWeight: FontWeight.w500,
+    ),
+
+    // Text entered by user inside TextField, ListTile(title), DatePicker(dates)
+    bodyLarge: TextStyle(
+      fontSize: 12,
+      fontWeight: FontWeight.w500,
+    ),
+
+    // TextButton(also other buttons like floating action button), Chip, DatePicker("select date" title)
+    labelLarge: TextStyle(
+      fontSize: 12,
+      fontWeight: FontWeight.w500,
+    ),
+
+    // Slider(label)
+    labelMedium: TextStyle(
+      fontSize: 12,
+      fontWeight: FontWeight.w500,
+    ),
+
+    // Dropdown
+    titleMedium: TextStyle(
+      fontSize: 12,
+      fontWeight: FontWeight.w500,
+    ),
+
+    // DatePicker(Dropdown title "just the title")
+    titleSmall: TextStyle(
+      fontSize: 12,
+      fontWeight: FontWeight.w500,
+    ),
+
+    // DatePicker(title date "Sat,Dec 14")
+    headlineLarge: TextStyle(
+      fontSize: 24,
+      fontWeight: FontWeight.w500,
+    ),
+
+    // pop-up/alert title message
+    headlineSmall: TextStyle(
+      fontSize: 18,
+      fontWeight: FontWeight.w500,
+    ),
+
+    // Unknown styles
+    bodySmall: TextStyle(
+      fontSize: 6,
+      fontWeight: FontWeight.w500,
+      color: Colors.black,
+    ),
+    labelSmall: TextStyle(
+      fontSize: 6,
+      fontWeight: FontWeight.w500,
+      color: Colors.black,
+    ),
+    headlineMedium: TextStyle(
+      fontSize: 6,
+      fontWeight: FontWeight.w500,
+      color: Colors.black,
+    ),
+    displayLarge: TextStyle(
+      fontSize: 6,
+      fontWeight: FontWeight.w500,
+      color: Colors.black,
+    ),
+    displayMedium: TextStyle(
+      fontSize: 6,
+      fontWeight: FontWeight.w500,
+      color: Colors.black,
+    ),
+    displaySmall: TextStyle(
+      fontSize: 6,
+      fontWeight: FontWeight.w500,
+      color: Colors.black,
+    ),
+  );
+}
